@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
+body {
+  background-color: #436850;
+  font-family: "Space Grotesk", sans-serif;
+  color:#ADBC9F;
+  font-size: 18px;
+  text-align: center;
+  padding: 10px;
+}
+
+h1,h2,h3{
+  font-family: "Space Grotesk", sans-serif;
+  color: #ADBC9F;
+  padding: 10px;
+}
+
+img{
+  border-radius: 50%;
+  width:200px;
+  height:200px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+div.card{
+  background-color:#FBFADA;
+  padding: 50px;
+  margin: 25px auto;
+  border-radius: 5px;
+  border: 1px solid #EAEAEA;
+}
+
+.btn-green {
+background-color: #436850;
+color: white;
+padding: 10px 10px;
+border-radius: 4px;
+text-decoration:none;
+}
+.btn-green:hover{
+  background-color:#ADBC9F;
+  color:#12372A;
+}
+
+a{
+  text-decoration:none;
+  color:#436850;
+  font-size:18px;
+  font-weight:bold;
+  transition:0.3s ease;
+}
+
+a:hover{
+  color:#ADBC9F;
+}
+
+i {
+  font-size: 50px
+}
+
+.container {
+  margin: 0 auto;
+  width: 800px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+  }
